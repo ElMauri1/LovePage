@@ -1,0 +1,41 @@
+div{
+    width: 30%;
+    height: 195px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    text-align: center;
+    background-color: rgba(28, 28, 156, 0.685);
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50PX;
+}
+
+button{
+    height: 35px;
+    width: 75%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    background-color: blanchedalmond;
+    border-radius: 50PX;
+}
+button:hover{
+    background-color: rgba(255, 235, 205, 0.938);
+    cursor: pointer;
+}
+
+body{
+    width: 95%;
+    height: 95vh;
+    background-image: url(diseño.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
